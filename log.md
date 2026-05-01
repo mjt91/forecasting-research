@@ -1,7 +1,7 @@
 ---
 title: Wiki Log
 created: 2026-04-18
-updated: 2026-04-24
+updated: 2026-05-01
 type: meta
 tags: [meta]
 sources: []
@@ -32,3 +32,15 @@ sources: []
   - concepts/global-persistence-local-residual-panel-forecasting.md
   - models/sbbts-schrodinger-bass-synthetic-ts.md
 - Weekly digest: weekly/2026-W17.md
+
+## [2026-05-01] ingest | Weekly arXiv digest — Week of 2026-05-01
+- Papers reviewed: 20 (10 q-fin.ST + 10 stat.ML, deduped)
+- Papers kept: 2 (2604.27696, 2604.22801)
+- Papers discarded: 18 (pure CV/NLP, no TS component, no finance relevance, or already in wiki)
+- Raw pages created:
+  - raw/papers/2604.27696.md
+  - raw/papers/2604.22801.md
+- Wiki pages created:
+  - concepts/forecast-reconciliation-foreco-toolbox.md
+  - concepts/context-adversarial-stock-prediction.md
+- Weekly digest: weekly/2026-W18.md
