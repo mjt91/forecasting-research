@@ -1,7 +1,7 @@
 ---
 title: Wiki Log
 created: 2026-04-18
-updated: 2026-05-01
+updated: 2026-05-08
 type: meta
 tags: [meta]
 sources: []
@@ -44,3 +44,16 @@ sources: []
   - concepts/forecast-reconciliation-foreco-toolbox.md
   - concepts/context-adversarial-stock-prediction.md
 - Weekly digest: weekly/2026-W18.md
+
+## [2026-05-08] ingest | Weekly arXiv digest — Week of 2026-05-08
+- Papers reviewed: 5 (4 q-fin.ST this week + 1 neural-actuarial; broader stat.ML/cs.LG scan via arXiv search)
+- Papers kept: 2 (2605.05211, 2605.06310)
+- Papers discarded: 3 (2605.04004 intraday signals - not production TS forecasting; 2605.00196 theoretical distribution paper - no Nixtla connection; 2605.06438 longevity risk - niche)
+- arXiv API rate-limited all week — used browser browsing to discover papers; Semantic Scholar also rate-limited
+- Raw pages created:
+  - raw/papers/2605.05211.md
+  - raw/papers/2605.06310.md
+- Wiki pages created:
+  - concepts/llm-stock-forecasting-hedge-fund-review.md
+  - concepts/dpr-dynamic-pattern-recalibration.md
+- Weekly digest: weekly/2026-W19.md
