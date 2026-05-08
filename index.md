@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 created: 2026-04-18
-updated: 2026-04-24
+updated: 2026-05-08
 type: meta
 tags: [meta]
 sources: []
@@ -10,10 +10,12 @@ sources: []
 # Wiki Index
 
 > Content catalog. Every wiki page listed with a one-line summary.
-> Last updated: 2026-05-01 | Total pages: 11
+> Last updated: 2026-05-08 | Total pages: 13
 
 ## Papers
 
+- [[2605.06310]] — DPRNet: Dynamic Pattern Recalibration for Time Series Forecasting (Zhong et al., 2026)
+- [[2605.05211]] — LLM Stock Forecasting Hedge-Fund Review (Zhang & Zhang, 2026)
 - [[2604.27696]] — FoReco and FoRecoML: Unified Toolbox for Forecast Reconciliation (Girolimetto et al., 2026)
 - [[2604.22801]] — Context-Integrated Adversarial Learning for Stock Price Prediction (Lazanas et al., 2026)
 - [[2604.19580]] — Probabilistic Forecasting for Day-ahead Electricity Prices (Hirsch & Ziel, 2026)
@@ -27,6 +29,8 @@ sources: []
 
 ## Concepts
 
+- [[dpr-dynamic-pattern-recalibration]] — Token-level dynamic recalibration for transformers; backbone-agnostic adapter; Wen/Liang group (2026)
+- [[llm-stock-forecasting-hedge-fund-review]] — Practitioner review of LLM failure modes in stock forecasting; evaluation rigor emphasized; hedge-fund perspective (Zhang & Zhang, 2026)
 - [[forecast-reconciliation-foreco-toolbox]] — Unified R toolbox (FoReco + FoRecoML) for cross-sectional, temporal, and cross-temporal reconciliation
 - [[context-adversarial-stock-prediction]] — Adversarial + sentiment-based approach to regime-robust equity price prediction
 - [[probabilistic-electricity-forecasting-evaluation]] — Critique of battery arbitrage as probabilistic forecast benchmark; stochastic programming for decision-quality evaluation
