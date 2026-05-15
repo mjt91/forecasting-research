@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 created: 2026-04-18
-updated: 2026-05-08
+updated: 2026-05-15
 type: meta
 tags: [meta]
 sources: []
@@ -10,10 +10,11 @@ sources: []
 # Wiki Index
 
 > Content catalog. Every wiki page listed with a one-line summary.
-> Last updated: 2026-05-08 | Total pages: 13
+> Last updated: 2026-05-15 | Total pages: 16
 
 ## Papers
 
+- [[2605.12099]] — Bayesian Dynamic Modeling of Realized Volatility (Woitschig & West, 2026)
 - [[2605.06310]] — DPRNet: Dynamic Pattern Recalibration for Time Series Forecasting (Zhong et al., 2026)
 - [[2605.05211]] — LLM Stock Forecasting Hedge-Fund Review (Zhang & Zhang, 2026)
 - [[2604.27696]] — FoReco and FoRecoML: Unified Toolbox for Forecast Reconciliation (Girolimetto et al., 2026)
@@ -29,6 +30,9 @@ sources: []
 
 ## Concepts
 
+- [[bayesian-dynamic-realized-volatility]] — Dynamic gamma + DLM for realized volatility; conjugate Bayesian inference; Mike West (2026)
+- [[conformal-seasonal-pools]] — Training-free probabilistic forecasting via conformal prediction; 0.89 vs 0.66 coverage; 500x faster than DeepNPTS (Manokhin, 2026)
+- [[in-context-learning-regime-change]] — Transformer ICL under regime change; formal change-point detection; FOMC application (Dudley et al., 2026)
 - [[dpr-dynamic-pattern-recalibration]] — Token-level dynamic recalibration for transformers; backbone-agnostic adapter; Wen/Liang group (2026)
 - [[llm-stock-forecasting-hedge-fund-review]] — Practitioner review of LLM failure modes in stock forecasting; evaluation rigor emphasized; hedge-fund perspective (Zhang & Zhang, 2026)
 - [[forecast-reconciliation-foreco-toolbox]] — Unified R toolbox (FoReco + FoRecoML) for cross-sectional, temporal, and cross-temporal reconciliation

@@ -1,7 +1,7 @@
 ---
 title: Wiki Log
 created: 2026-04-18
-updated: 2026-05-08
+updated: 2026-05-15
 type: meta
 tags: [meta]
 sources: []
@@ -57,3 +57,18 @@ sources: []
   - concepts/llm-stock-forecasting-hedge-fund-review.md
   - concepts/dpr-dynamic-pattern-recalibration.md
 - Weekly digest: weekly/2026-W19.md
+
+## [2026-05-15] ingest | Weekly arXiv digest — Week of 2026-05-15
+- Papers reviewed: 68 (deduped from 6 broad queries: time series forecasting, finance TS, stock price, volatility, probabilistic)
+- Papers kept: 3 (2605.12099, 2605.03789, 2604.16988)
+- Papers discarded: 65 (pure CV/NLP without TS component, general ML without finance/production relevance, or too theoretical)
+- arXiv API: category filters (q-fin.ST, stat.ML, cs.LG) returned 0 results due to query parsing; used broader all-field queries instead
+- Raw pages created:
+  - raw/papers/2605.12099.md
+  - raw/papers/2605.03789.md
+  - raw/papers/2604.16988.md
+- Wiki pages created:
+  - concepts/bayesian-dynamic-realized-volatility.md
+  - concepts/conformal-seasonal-pools.md
+  - concepts/in-context-learning-regime-change.md
+- Weekly digest: weekly/2026-W20.md
