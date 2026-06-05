@@ -1,7 +1,7 @@
 ---
 title: Wiki Log
 created: 2026-04-18
-updated: 2026-05-15
+updated: 2026-06-05
 type: meta
 tags: [meta]
 sources: []
@@ -72,3 +72,36 @@ sources: []
   - concepts/conformal-seasonal-pools.md
   - concepts/in-context-learning-regime-change.md
 - Weekly digest: weekly/2026-W20.md
+
+## [2026-05-29] ingest | Weekly arXiv digest — Week of 2026-05-29
+- Papers reviewed: 12 (from q-fin.ST recent list + stat.ML recent list; arXiv API rate-limited all day)
+- Papers kept: 3 (2605.29541, 2605.27848, 2605.27977)
+- Papers discarded: 9 (pure CV/NLP, general ML without finance/production TS relevance, or low relevance to production forecasting)
+- arXiv API: fully rate-limited ("Rate exceeded" persists for hours); all discovery via browser browsing of category list pages
+- Papers kept理由:
+  - 2605.29541: Copula-Weibull Markov change-point detection for volatility series; direct VIX COVID-19 application
+  - 2605.27848: HMM+RL regime-aware portfolio allocation; 3-state BIC-selected; best Sharpe with interpretable discrete actions
+  - 2605.27977: MLP vs CNN-GAF on bond index; fractional differencing key; CNN-GAF consistently fails — lesson for architecture selection
+- Raw pages created:
+  - raw/papers/2605.29541.md
+  - raw/papers/2605.27848.md
+  - raw/papers/2605.27977.md
+- Wiki pages created:
+  - concepts/copula-weibull-change-point.md
+  - concepts/hmm-regime-rl-allocation.md
+  - concepts/deep-learning-bond-index-forecasting.md
+- Weekly digest: weekly/2026-W22.md
+
+## [2026-06-05] ingest | Weekly arXiv digest — Week of 2026-06-05
+- Papers reviewed: ~13 (browsed q-fin.ST recent list across 5 days; arXiv API fully rate-limited all day)
+- Papers kept: 3 (2606.06190, 2606.05138, 2606.04153)
+- Papers discarded: ~10 (crypto DRL pair trading too niche; life insurance surplus too actuarial; general ML papers without finance TS component)
+- Raw pages created:
+  - raw/papers/2606.06190.md
+  - raw/papers/2606.05138.md
+  - raw/papers/2606.04153.md
+- Wiki pages created:
+  - concepts/multi-scale-ms-garch.md
+  - concepts/sock-random-convolutional-features.md
+  - concepts/sign-magnitude-return-decomposition.md
+- Weekly digest: weekly/2026-W23.md
