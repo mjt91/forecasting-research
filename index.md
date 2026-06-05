@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 created: 2026-04-18
-updated: 2026-05-15
+updated: 2026-06-05
 type: meta
 tags: [meta]
 sources: []
@@ -10,10 +10,13 @@ sources: []
 # Wiki Index
 
 > Content catalog. Every wiki page listed with a one-line summary.
-> Last updated: 2026-05-15 | Total pages: 16
+> Last updated: 2026-06-05 | Total pages: 22
 
 ## Papers
 
+- [[2606.06190]] — Multi-Scale Markov Switching GARCH (Chaudhary, 2026)
+- [[2606.05138]] — Generating Financial Time Series by Matching Random Convolutional Features (Mueller et al., 2026)
+- [[2606.04153]] — A new decomposition approach to modeling financial returns: Conditioning sign on magnitude (Brou & Luger, 2026)
 - [[2605.12099]] — Bayesian Dynamic Modeling of Realized Volatility (Woitschig & West, 2026)
 - [[2605.06310]] — DPRNet: Dynamic Pattern Recalibration for Time Series Forecasting (Zhong et al., 2026)
 - [[2605.05211]] — LLM Stock Forecasting Hedge-Fund Review (Zhang & Zhang, 2026)
@@ -40,6 +43,9 @@ sources: []
 - [[probabilistic-electricity-forecasting-evaluation]] — Critique of battery arbitrage as probabilistic forecast benchmark; stochastic programming for decision-quality evaluation
 - [[specialist-routing-volatility]] — Regime-dependent specialist routing for volatility forecasting; 24% loss reduction via gating
 - [[global-persistence-local-residual-panel-forecasting]] — Two-stage block decomposition for heterogeneous investment panels; data-type heterogeneity key
+- [[multi-scale-ms-garch]] — Triple-timeframe MS-GARCH with 27-state cross-scale tensor; TVTP for adaptive regime switching; EUR/USD vol forecasting (Chaudhary, 2026)
+- [[sock-random-convolutional-features]] — SOCK differentiable random kernels for generative TS; beats signature/diffusion baselines on small-sample finance (Mueller et al., 2026)
+- [[sign-magnitude-return-decomposition]] — R = sign × |R| decomposition; conditional sign given magnitude; JBF publication; competitive with copulas (Brou & Luger, 2026)
 
 ## Models
 
